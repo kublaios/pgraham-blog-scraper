@@ -1,0 +1,20 @@
+{
+    "name": "kublaios/pgraham-blog-scraper",
+    "description": "PHP project for scraping Paul Graham's blog",
+    "type": "project",
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Kublaios\\PgrahamBlogScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kubilay Erdogan",
+            "email": "kubilay@kubilayerdogan.net"
+        }
+    ]
+}
